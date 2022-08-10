@@ -1,3 +1,7 @@
+# Sphinx
+docs/_build
+docs/_static/videos/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
