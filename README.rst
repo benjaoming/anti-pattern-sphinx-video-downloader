@@ -55,13 +55,11 @@ Usage
 
 You need two documentation projects:
 
-* Project 1: Your main project, it has a `<video>` embed pointing to where Project 2 is deployed
-* Project 2: Use this template, add videos and reference them from whereever this project is built and hosted
-
+-  Project 1: Your main project, it has a `<video>` embed pointing to where Project 2 is deployed
+-  Project 2: Use this template, add videos and reference them from whereever this project is built and hosted
 
 Read the Docs setup
 -------------------
 
-* This is a **single-version project** meaning that we don't create heavy
-archives with previous versions.
-* **No** PR builds for Project 2 please
+-  This is a **single-version project** meaning that we don't create heavy archives with previous versions.
+-  **No** PR builds for Project 2 please

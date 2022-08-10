@@ -45,7 +45,8 @@ def download_file(url, local_filename):
 rootdir = os.path.dirname(os.path.realpath(__file__))
 videodir = os.path.join(rootdir, "_static", "videos")
 
-os.makedirs(videodir)
+if not os.path.exists(videodir):
+    os.makedirs(videodir)
 
 for source, dest in video_files:
     dest_path = os.path.join(videodir, dest)
