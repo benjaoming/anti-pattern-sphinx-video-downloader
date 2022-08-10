@@ -63,3 +63,4 @@ Read the Docs setup
 
 -  This is a **single-version project** meaning that we don't create heavy archives with previous versions.
 -  **No** PR builds for Project 2 please
+-  Disable PDF and EPUB builds
